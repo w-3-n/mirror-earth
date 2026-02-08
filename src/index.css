@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-slate-950 text-slate-100 font-sans;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
